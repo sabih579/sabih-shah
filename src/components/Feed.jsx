@@ -1,6 +1,7 @@
 import { Box } from "@mui/material";
 import React from "react";
 import Post from "./Post";
+import MyTable from "./Table";
 
 
 
@@ -11,8 +12,10 @@ const Feed = () => {
      <Post />
      <Post />
      <Post />
-
+    
+     <MyTable />
     </Box>
+   
 )
 }
 export default Feed ;

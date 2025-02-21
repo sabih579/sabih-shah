@@ -15,7 +15,7 @@ import ListItemAvatar from '@mui/material/ListItemAvatar';
 const Rightbar = () => {
     return(
 <Box flex={2} p={2} sx={{display:{xs:"none", sm:"block"}}}>
-    <Box position="" width={300}>
+    <Box position="fixed" width={300}>
         <Typography variant="h6" fontWeight={100}>Online Friends</Typography>
         <AvatarGroup max={5}>
        <Avatar alt="Remy Sharp" src="team-1.jpg" />

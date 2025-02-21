@@ -19,6 +19,7 @@ function App () {
   return (
    
     <ThemeProvider theme={darkTheme}>
+      
     <Box bgcolor={"background.default"} color={"text.primary"}>
       <Navbar />
       
@@ -30,7 +31,7 @@ function App () {
       <Add />
       
     </Box>
-    <MyTable />
+    
     </ThemeProvider>
    
    
